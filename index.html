@@ -7,24 +7,38 @@
     <title>CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* pseudo classes works with parent only */
+    div ul:nth-child(2) {
+        color: green;
+        background-color: grey;
+    }
+</style>
 
 <body>
-    <div class="group">
-        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam veniam quaerat animi consectetur officia
-            modi laboriosam sunt blanditiis eligendi voluptate sit aspernatur culpa qui iusto perspiciatis ipsum
-            dolores, ducimus expedita, cum quas dolorem vitae ea iste vero! Quidem, corporis minima.</div>
-        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam veniam quaerat animi consectetur officia
-            modi laboriosam sunt blanditiis eligendi voluptate sit aspernatur culpa qui iusto perspiciatis ipsum
-            dolores, ducimus expedita, cum quas dolorem vitae ea iste vero! Quidem, corporis minima.</div>
-        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam veniam quaerat animi consectetur officia
-            modi laboriosam sunt blanditiis eligendi voluptate sit aspernatur culpa qui iusto perspiciatis ipsum
-            dolores, ducimus expedita, cum quas dolorem vitae ea iste vero! Quidem, corporis minima.</d>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam veniam quaerat animi consectetur
-                officia
-                modi laboriosam sunt blanditiis eligendi voluptate sit aspernatur culpa qui iusto perspiciatis ipsum
-                dolores, ducimus expedita, cum quas dolorem vitae ea iste vero! Quidem, corporis minima.</d>
-
-            </div>
+    <div>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+        </ul>
+    </div>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+    </ul>
 </body>
 
 </html>
